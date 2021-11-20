@@ -1,0 +1,163 @@
+*{
+    box-sizing: all;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(189, 238, 240);
+  }
+
+  #main{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+  }
+  
+  .nav{
+    background-color: rgb(23, 60, 61);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    position: static;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 0;
+    left: 0;
+    height: 95px;
+    width: 100%;
+    margin-right: 60%;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  .menu{
+    list-style: none;
+    display: contents;
+    margin-left: 60%;
+  }
+  
+  .menu li a{
+    margin-bottom: 15px; 
+    align-items: center;
+    text-align: center;
+    height: 0px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+  
+  }
+
+  .menu li a:hover{
+    color: coral;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .welcome{
+    margin: 25px auto 20px auto;
+    text-align: center;
+    color: rgb(38, 85, 87);
+    font-size: 4.5rem;
+  }
+
+  .subtext{
+    position: relative;
+    top: -20px;
+    text-align: center;
+    color: rgb(38, 85, 87);
+    font-size: 2.4rem;
+  }
+
+  .bankimages{
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    border: 2px solid black;  
+  } 
+
+  .start{
+    font-family: 'Reggae One';
+    background-color: rgb(16, 100, 100);
+    color:white;
+    padding: 15px 45px;
+    /*text-align: center;*/
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex; 
+    font-size: 19px;
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-right: 20%;
+    height: 25px;
+    width: 140px;  
+    justify-content: center;
+  } 
+
+  .start:hover{
+    border: 3px solid black;
+    background-color: rgb(240, 171, 146);
+    color: black;
+    text-decoration: underline;
+  }
+
+  .main-content{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .content{
+    margin-top: 100px;
+  }
+
+  hr{
+    margin-top: 60px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    color:grey;
+    width: 5%;
+  }
+
+  #contact-me{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #footer{
+    background-color: rgb(23, 60, 61) ;
+    text-align: center;
+}
+
+  .connect{
+    padding-top: 40px;
+    text-align: center ;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .footer-icon {
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer-icon:hover{
+ color: coral;
+}
+
+  
+
+  
+
+  

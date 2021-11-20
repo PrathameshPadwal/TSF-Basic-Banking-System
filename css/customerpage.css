@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: brown;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+  }
+  
+  .nav{
+    background-color: rgb(23, 60, 61);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: static;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+   
+    margin-right: 60%;
+  }
+  
+  .logo img{
+    height: 110px;
+    filter: invert(100%);
+  
+  }
+  
+  .menu{
+    list-style: none;
+    display: contents;
+    margin-left: 60%;
+  }
+  
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: left;
+    text-align: center;
+    color: white;
+  }
+  
+  .menu li a:hover{
+    color:coral;
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+
+  .accholder{
+    color: brown;
+    padding-bottom: 20px;
+  }
+
+  .accbalance{
+    color: rgb(17, 63, 65);
+    padding-bottom: 20px;
+  }
+
+  .self_info{
+    justify-content: space-around;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Arial, Helvetica';
+    font-weight: 400;
+    line-height: 1.2px;
+    font-size : 25px;
+  }
+  
+  .btn{
+    font-family: 'Arial, Helvetica', cursive;
+    background-color: rgb(243, 87, 14);
+    padding: 20px 45px;
+    text-align: center;
+    text-decoration-color: rgb(18, 209, 59);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 12px solid rgb(129, 7, 250);
+    box-shadow: 0 0 10px rgb(136, 43, 43);
+    padding-bottom: 20px;
+  }
+  
+  .btn:hover{
+    background-color:rgb(230, 206, 141);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .table{
+  
+    border-collapse: collapse;
+      margin: 2px auto 0 auto;
+      font-size: 0.9em;
+      min-width: 400px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      padding: 30px;
+    box-shadow: 0 0 20px rgba(136, 26, 26, 0.15);
+  }
+  
+  .table thead tr{
+    background-color: rgb(145, 10, 145);
+      color: rgb(146, 11, 11);
+      text-align: left;
+      font-weight: bold;
+  }
+  
